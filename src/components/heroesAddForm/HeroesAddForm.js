@@ -33,7 +33,6 @@ const HeroesAddForm = () => {
       ...hero,
       [e.target.name]: e.target.value,
     });
-    console.log(hero);
   };
 
   const test = async (e) => {
@@ -49,8 +48,7 @@ const HeroesAddForm = () => {
         }
       );
       dispatch(addNewHero(newHero));
-      console.log(heroes);
-      console.log(data);
+
       setHero({ name: "", description: "", element: "" });
     } catch (error) {
       console.log(error);
@@ -110,10 +108,6 @@ const HeroesAddForm = () => {
               </option>
             );
           })}
-          {/* <option value="fire">Огонь</option>
-          <option value="water">Вода</option>
-          <option value="wind">Ветер</option>
-          <option value="earth">Земля</option> */}
         </select>
       </div>
 
