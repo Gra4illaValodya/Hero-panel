@@ -1,9 +1,13 @@
+import { ReducerType } from "@reduxjs/toolkit";
 import { v4 as uuidv4 } from "uuid";
 
 export const heroesFetching = () => {
   return {
     type: "HEROES_FETCHING",
   };
+};
+export const deleteHero = (id) => {
+  return { type: "DELETE_HERO", payload: id };
 };
 export const addNewHero = (newHero) => {
   return { type: "ADD_NEW_HERO", payload: { ...newHero } };

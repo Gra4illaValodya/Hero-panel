@@ -19,34 +19,10 @@
       "element": "water"
     },
     {
-      "name": "LOL",
-      "description": "I HAVE DOG",
-      "element": "fire",
-      "id": "323ccd7a-b8ee-4966-b215-2c88de171805"
-    },
-    {
-      "name": "LAPYX",
-      "description": "nothing",
-      "element": "",
-      "id": "01e43420-ef14-4cef-9765-087d20b386ca"
-    },
-    {
-      "name": "вцув",
-      "description": "уцввцу",
-      "element": "wind",
-      "id": "ea405d96-6810-4e16-8f45-44cfe8cd3ac5"
-    },
-    {
       "name": "eqw",
       "description": "weq",
       "element": "water",
       "id": "bdad6d37-7ff7-4b8c-9c4e-898bc9f3acfe"
-    },
-    {
-      "name": "da",
-      "description": "asd",
-      "element": "fire",
-      "id": "67eb6b72-9f04-488d-9d06-c9b19966c90e"
     }
   ],
   "filters": [
