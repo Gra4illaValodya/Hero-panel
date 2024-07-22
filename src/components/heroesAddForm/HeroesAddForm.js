@@ -103,8 +103,8 @@ const HeroesAddForm = () => {
           <option>Я владею элементом...</option>
           {filter.map((element) => {
             return (
-              <option value={element} key={element}>
-                {elementTranslation[element]}
+              <option value={element.name} key={element.name}>
+                {element.label}
               </option>
             );
           })}
